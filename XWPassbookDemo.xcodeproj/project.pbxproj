@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1CCCE61ACD501800DE09B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCCE51ACD501800DE09B0 /* main.m */; };
+		CD1CCCE91ACD501800DE09B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCCE81ACD501800DE09B0 /* AppDelegate.m */; };
+		CD1CCCEC1ACD501800DE09B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCCEB1ACD501800DE09B0 /* ViewController.m */; };
+		CD1CCCF11ACD501800DE09B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1CCCF01ACD501800DE09B0 /* Images.xcassets */; };
+		CD1CCCF41ACD501800DE09B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1CCCF21ACD501800DE09B0 /* LaunchScreen.xib */; };
+		CD1CCD001ACD501800DE09B0 /* XWPassbookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCCFF1ACD501800DE09B0 /* XWPassbookDemoTests.m */; };
+		CD1CCD0B1ACD504A00DE09B0 /* XWPassbookPage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCD0A1ACD504A00DE09B0 /* XWPassbookPage.m */; };
+		CDB474BF1ACD913E002D3512 /* XWPassbookDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB474BE1ACD913E002D3512 /* XWPassbookDraw.m */; };
+		CDB474C21ACDC06D002D3512 /* XWPassbook.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB474C11ACDC06D002D3512 /* XWPassbook.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1CCCFA1ACD501800DE09B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1CCCD81ACD501800DE09B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1CCCDF1ACD501800DE09B0;
+			remoteInfo = XWPassbookDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1CCCE01ACD501800DE09B0 /* XWPassbookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWPassbookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1CCCE41ACD501800DE09B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1CCCE51ACD501800DE09B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1CCCE71ACD501800DE09B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD1CCCE81ACD501800DE09B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD1CCCEA1ACD501800DE09B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD1CCCEB1ACD501800DE09B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD1CCCF01ACD501800DE09B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD1CCCF31ACD501800DE09B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD1CCCF91ACD501800DE09B0 /* XWPassbookDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWPassbookDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1CCCFE1ACD501800DE09B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1CCCFF1ACD501800DE09B0 /* XWPassbookDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWPassbookDemoTests.m; sourceTree = "<group>"; };
+		CD1CCD091ACD504A00DE09B0 /* XWPassbookPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XWPassbookPage.h; path = XWPassbook/XWPassbookPage.h; sourceTree = SOURCE_ROOT; };
+		CD1CCD0A1ACD504A00DE09B0 /* XWPassbookPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XWPassbookPage.m; path = XWPassbook/XWPassbookPage.m; sourceTree = SOURCE_ROOT; };
+		CDB474BD1ACD913E002D3512 /* XWPassbookDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XWPassbookDraw.h; path = XWPassbook/XWPassbookDraw.h; sourceTree = SOURCE_ROOT; };
+		CDB474BE1ACD913E002D3512 /* XWPassbookDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XWPassbookDraw.m; path = XWPassbook/XWPassbookDraw.m; sourceTree = SOURCE_ROOT; };
+		CDB474C01ACDC06C002D3512 /* XWPassbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XWPassbook.h; path = XWPassbook/XWPassbook.h; sourceTree = SOURCE_ROOT; };
+		CDB474C11ACDC06D002D3512 /* XWPassbook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XWPassbook.m; path = XWPassbook/XWPassbook.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1CCCDD1ACD501800DE09B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1CCCF61ACD501800DE09B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1CCCD71ACD501800DE09B0 = {
+			isa = PBXGroup;
+			children = (
+				CD1CCCE21ACD501800DE09B0 /* XWPassbookDemo */,
+				CD1CCCFC1ACD501800DE09B0 /* XWPassbookDemoTests */,
+				CD1CCCE11ACD501800DE09B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1CCCE11ACD501800DE09B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCCE01ACD501800DE09B0 /* XWPassbookDemo.app */,
+				CD1CCCF91ACD501800DE09B0 /* XWPassbookDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1CCCE21ACD501800DE09B0 /* XWPassbookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCD0C1ACD505300DE09B0 /* XWPassbook */,
+				CD1CCCE71ACD501800DE09B0 /* AppDelegate.h */,
+				CD1CCCE81ACD501800DE09B0 /* AppDelegate.m */,
+				CD1CCCEA1ACD501800DE09B0 /* ViewController.h */,
+				CD1CCCEB1ACD501800DE09B0 /* ViewController.m */,
+				CD1CCCF01ACD501800DE09B0 /* Images.xcassets */,
+				CD1CCCF21ACD501800DE09B0 /* LaunchScreen.xib */,
+				CD1CCCE31ACD501800DE09B0 /* Supporting Files */,
+			);
+			path = XWPassbookDemo;
+			sourceTree = "<group>";
+		};
+		CD1CCCE31ACD501800DE09B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCCE41ACD501800DE09B0 /* Info.plist */,
+				CD1CCCE51ACD501800DE09B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD1CCCFC1ACD501800DE09B0 /* XWPassbookDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCCFF1ACD501800DE09B0 /* XWPassbookDemoTests.m */,
+				CD1CCCFD1ACD501800DE09B0 /* Supporting Files */,
+			);
+			path = XWPassbookDemoTests;
+			sourceTree = "<group>";
+		};
+		CD1CCCFD1ACD501800DE09B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCCFE1ACD501800DE09B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD1CCD0C1ACD505300DE09B0 /* XWPassbook */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCD091ACD504A00DE09B0 /* XWPassbookPage.h */,
+				CD1CCD0A1ACD504A00DE09B0 /* XWPassbookPage.m */,
+				CDB474BD1ACD913E002D3512 /* XWPassbookDraw.h */,
+				CDB474BE1ACD913E002D3512 /* XWPassbookDraw.m */,
+				CDB474C01ACDC06C002D3512 /* XWPassbook.h */,
+				CDB474C11ACDC06D002D3512 /* XWPassbook.m */,
+			);
+			name = XWPassbook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1CCCDF1ACD501800DE09B0 /* XWPassbookDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1CCD031ACD501800DE09B0 /* Build configuration list for PBXNativeTarget "XWPassbookDemo" */;
+			buildPhases = (
+				CD1CCCDC1ACD501800DE09B0 /* Sources */,
+				CD1CCCDD1ACD501800DE09B0 /* Frameworks */,
+				CD1CCCDE1ACD501800DE09B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWPassbookDemo;
+			productName = XWPassbookDemo;
+			productReference = CD1CCCE01ACD501800DE09B0 /* XWPassbookDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD1CCCF81ACD501800DE09B0 /* XWPassbookDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1CCD061ACD501800DE09B0 /* Build configuration list for PBXNativeTarget "XWPassbookDemoTests" */;
+			buildPhases = (
+				CD1CCCF51ACD501800DE09B0 /* Sources */,
+				CD1CCCF61ACD501800DE09B0 /* Frameworks */,
+				CD1CCCF71ACD501800DE09B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1CCCFB1ACD501800DE09B0 /* PBXTargetDependency */,
+			);
+			name = XWPassbookDemoTests;
+			productName = XWPassbookDemoTests;
+			productReference = CD1CCCF91ACD501800DE09B0 /* XWPassbookDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1CCCD81ACD501800DE09B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Xin Wang";
+				TargetAttributes = {
+					CD1CCCDF1ACD501800DE09B0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CD1CCCF81ACD501800DE09B0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CD1CCCDF1ACD501800DE09B0;
+					};
+				};
+			};
+			buildConfigurationList = CD1CCCDB1ACD501800DE09B0 /* Build configuration list for PBXProject "XWPassbookDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1CCCD71ACD501800DE09B0;
+			productRefGroup = CD1CCCE11ACD501800DE09B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1CCCDF1ACD501800DE09B0 /* XWPassbookDemo */,
+				CD1CCCF81ACD501800DE09B0 /* XWPassbookDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1CCCDE1ACD501800DE09B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1CCCF41ACD501800DE09B0 /* LaunchScreen.xib in Resources */,
+				CD1CCCF11ACD501800DE09B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1CCCF71ACD501800DE09B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1CCCDC1ACD501800DE09B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB474C21ACDC06D002D3512 /* XWPassbook.m in Sources */,
+				CD1CCCEC1ACD501800DE09B0 /* ViewController.m in Sources */,
+				CD1CCD0B1ACD504A00DE09B0 /* XWPassbookPage.m in Sources */,
+				CDB474BF1ACD913E002D3512 /* XWPassbookDraw.m in Sources */,
+				CD1CCCE91ACD501800DE09B0 /* AppDelegate.m in Sources */,
+				CD1CCCE61ACD501800DE09B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1CCCF51ACD501800DE09B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1CCD001ACD501800DE09B0 /* XWPassbookDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1CCCFB1ACD501800DE09B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1CCCDF1ACD501800DE09B0 /* XWPassbookDemo */;
+			targetProxy = CD1CCCFA1ACD501800DE09B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1CCCF21ACD501800DE09B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1CCCF31ACD501800DE09B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1CCD011ACD501800DE09B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD1CCD021ACD501800DE09B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1CCD041ACD501800DE09B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XWPassbookDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD1CCD051ACD501800DE09B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XWPassbookDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD1CCD071ACD501800DE09B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XWPassbookDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWPassbookDemo.app/XWPassbookDemo";
+			};
+			name = Debug;
+		};
+		CD1CCD081ACD501800DE09B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XWPassbookDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWPassbookDemo.app/XWPassbookDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1CCCDB1ACD501800DE09B0 /* Build configuration list for PBXProject "XWPassbookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1CCD011ACD501800DE09B0 /* Debug */,
+				CD1CCD021ACD501800DE09B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1CCD031ACD501800DE09B0 /* Build configuration list for PBXNativeTarget "XWPassbookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1CCD041ACD501800DE09B0 /* Debug */,
+				CD1CCD051ACD501800DE09B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1CCD061ACD501800DE09B0 /* Build configuration list for PBXNativeTarget "XWPassbookDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1CCD071ACD501800DE09B0 /* Debug */,
+				CD1CCD081ACD501800DE09B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1CCCD81ACD501800DE09B0 /* Project object */;
+}
