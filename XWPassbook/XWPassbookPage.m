@@ -63,7 +63,7 @@ const CGFloat kMarginCollapsed = 40.f;
     
     // path
     CGContextSaveGState(context);
-    CGMutablePathRef arcPath = ticketPath(rect);
+    CGMutablePathRef arcPath = createTicketPath(rect);
     CGContextAddPath(context, arcPath);
     CGContextSetFillColorWithColor(context, self.pageBackgroundColor.CGColor);
     CGContextFillPath(context);
@@ -71,7 +71,7 @@ const CGFloat kMarginCollapsed = 40.f;
     
     // gloss
     CGRect glossRect = rect;
-    CGMutablePathRef arcPathGloss = ticketPath(glossRect);
+    CGMutablePathRef arcPathGloss = createTicketPath(glossRect);
     
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
     CGFloat locations[] = { 0.0, 1.0 };
@@ -104,6 +104,7 @@ const CGFloat kMarginCollapsed = 40.f;
     CGContextRestoreGState(context);
     
     CFRelease(arcPath);
+    CFRelease(arcPathGloss);
 }
 
 #pragma mark - Action

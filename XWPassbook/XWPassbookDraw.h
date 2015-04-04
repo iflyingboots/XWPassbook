@@ -11,6 +11,6 @@
 
 @interface XWPassbookDraw : NSObject
 
-CGMutablePathRef ticketPath(CGRect rect);
+CGMutablePathRef createTicketPath(CGRect rect);
 
 @end

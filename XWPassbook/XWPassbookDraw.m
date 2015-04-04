@@ -10,7 +10,7 @@
 
 @implementation XWPassbookDraw
 
-CGMutablePathRef ticketPath(CGRect rect)
+CGMutablePathRef createTicketPath(CGRect rect)
 {
     
     CGFloat margin = 10;
